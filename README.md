@@ -22,3 +22,28 @@ Commands to try:
 !press enter
 
 I'd love to hear your thoughts on the implementation—especially if anyone has ideas on how to optimize the sendkey latency!
+
+
+
+---------
+
+⌨️ Basic Commands
+!press [key] — Press a key or a combination.
+Example: !press enter or !press ctrl+alt+del
+!type "[text]" — Type words. Note: Use quotes for multiple words.
+Example: !type "hello world"
+!wait [seconds] — Pause between actions (Max 5s).
+Example: !wait 2
+
+🚀 Combo Moves (Copy & Paste)
+Try these sequences to get things moving:
+Open Notepad: !press win+r !wait 0.5 !type "notepad" !press enter
+Open Task Manager: !press ctrl+shift+esc
+Search Google: !press win !wait 0.5 !type "chrome" !press enter !wait 2 !type "how to hack a vm" !press enter
+
+🛠 Supported Special Keys
+You can use a-z and 0-9, plus these special names:
+System: win, ctrl, alt, shift, esc, enter, backspace, tab, spc, del
+Arrows: up, down, left, right
+Function: f1 through f12
+Navigation: pgup, pgdn, home, end
